@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inka | Eine wirklich talentierte Akademikerin</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: white;
+      color: #333;
+    }
+
+    header, footer {
+      background: green;
+      font-weight: bold;
+      color: white;
+      text-align: left;
+      width: 100%;
+      position: sticky;
+      top: 0;
+      opacity: 0.75;
+    }
+
+    header h1 {
+      padding-left: 10px;
+    }
+
+    header img {
+      position: relative;
+      left: 0;
+      padding-left: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .navbar {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: green;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .navbar > li {
+      position: relative;
+    }
+
+    .navbar > li > a {
+      display: block;
+      padding: 15px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: green;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      min-width: 150px;
+      z-index: 999;
+    }
+
+    .dropdown-content li a {
+      padding: 10px 20px;
+      display: block;
+      color: white;
+      text-decoration: none;
+    }
+
+    .dropdown-content li a:hover {
+      background: #90EE90;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    main {
+      background: white;
+      padding: 2rem;
+      font-family: Georgia, serif;
+    }
+
+    h1, h3, .main-content h1 {
+      font-weight: bold;
+      padding: 20px 0 10px 0;
+    }
+
+    h2 {
+      font-family: Georgia;
+      padding: 10px 0;
+    }
+
+    h4 {
+      font-weight: bold;
+    }
+
+    .main-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: green;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-family: Georgia, serif;
+      font-weight: bold;
+    }
+
+    .services li, .yebo li, footer li {
+      list-style: none;
+      padding: 10px 0;
+    }
+
+    .pretty {
+      padding-bottom: 10px;
+    }
+
+    main iframe {
+      padding-top: 40px;
+    }
+
+    .me {
+      padding: 20px 0 30px;
+    }
+
+    .yebo {
+      padding-bottom: 50px;
+    }
+
+    .yebo ul {
+      padding: 20px;
+    }
+
+    .footy {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    footer p {
+      padding: 10px 20px;
+    }
+
+    img, iframe {
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .form-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav id="cav">
+      <ul class="navbar">
+        <li class="dropdown">
+          <a href="#">☰ Menu</a>
+          <ul class="dropdown-content">
+            <li><a href="service.html">Leistungen</a></li>
+            <li><a href="index.html">Über mich</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <h1>Jazz</h1>
+    <img src="https://images.seeklogo.com/logo-png/46/1/utah-jazz-logo-png_seeklogo-466391.png" alt="Utah Jazz Logo" width="100" height="100" />
+  </header>
+
+  <main class="main-content">
+    <h1>SERVICES</h1>
+
+    <div class="ab">
+      <h3><strong>Warum kleine Unternehmen online sein sollten 🌐</strong></h3>
+      <ol>
+        <li>
+          <h4><strong>Gefunden werden 🧭</strong></h4>
+          <p>Die meisten Kunden suchen online – ohne Website oder Google-Eintrag wirst du übersehen.</p>
+        </li>
+        <li>
+          <h4><strong>Vertrauen aufbauen 🤝</strong></h4>
+          <p>Eine einfache Website zeigt, dass du professionell und zuverlässig bist.</p>
+        </li>
+        <li>
+          <h4><strong>24/7 sichtbar sein ⏰</strong></h4>
+          <p>Deine Öffnungszeiten, Speisekarte oder Preise sind immer abrufbar – auch wenn du gerade geschlossen hast.</p>
+        </li>
+        <li>
+          <h4><strong>Mehr Reichweite für weniger Geld 💸</strong></h4>
+          <p>Online-Werbung ist günstiger und effektiver als Flyer oder Zeitungsanzeigen.</p>
+        </li>
+        <li>
+          <h4><strong>Mobilfreundlich = mehr Kunden 📱</strong></h4>
+          <p>Viele suchen unterwegs – wer online gut aussieht, wird eher besucht.</p>
+        </li>
+      </ol>
+    </div>
+
+    <div class="me">
+      <h4><strong>Brauchen Sie schnell eine Webseite? Ich helfe Ihnen gerne! ⚡</strong></h4>
+      <p>Ich erstelle für Sie eine einfache, mobilfreundliche Webseite in kurzer Zeit – damit Sie sofort online sichtbar sind, Vertrauen aufbauen und mehr Kunden erreichen können. Lassen Sie uns Ihre Online-Präsenz professionell und schnell umsetzen! 💻📈</p>
+    </div>
+
+    <div class="yebo">
+      <h2>Was ist in jeder Webseite enthalten? 💼</h2>
+      <p><strong>Für nur 120 € pro Webseite</strong> (verhandelbar) erhalten Sie:</p>
+      <ul>
+        <li>✅ Eine mobilfreundliche, saubere Webseite</li>
+        <li>✅ Integration von WhatsApp-Chat & Google Maps</li>
+        <li>✅ Verlinkung zu Lieferando, Wolt, etc. (falls gewünscht)</li>
+        <li>✅ Kontaktformular oder direkter E-Mail-Link</li>
+        <li>✅ Hosting-Hilfe und Basis-Suchmaschinenoptimierung (SEO)</li>
+        <li>✅ Fertigstellung in kurzer Zeit!</li>
+      </ul>
+      <p>Ich helfe Ihnen dabei, <strong>schnell und professionell online sichtbar</strong> zu werden – perfekt für kleine Geschäfte wie Bäckereien, Imbisse und Cafés in Wuppertal, Düsseldorf, Köln und Umgebung.</p>
+      <ul>
+        <li><h4><strong>BEISPIELE</strong></h4></li>
+        <li><a href="https://quiet-bavarois-3a9aad.netlify.app/">UThando Lwethu (Essen)</a></li>
+        <li><a href="https://dapper-yeot-a2a883.netlify.app/">La Wupper (Döner Laden)</a></li>
+      </ul>
+    </div>
+
+    <section id="contact" class="contact">
+      <h2>Kontakt</h2>
+      <p>Möchten Sie eine Webseite wie diese? Schreiben Sie mir gerne.</p>
+      <a href="mailto:inkanyezipascal@gmail.com" class="btn">Email</a>
+      <a href="https://wa.me/4915114963430" class="btn">WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footy">
+      <img src="https://images.seeklogo.com/logo-png/46/1/utah-jazz-logo-png_seeklogo-466391.png" alt="Utah Jazz Logo" width="100" height="100" />
+      <div>
+        <ul>
+          <li><a href="https://wa.me/4915114963430">📞 +49 1511 4963430</a></li>
+          <li><a href="mailto:inkanyezipascal@gmail.com">📧 inkanyezipascal@gmail.com</a></li>
+        </ul>
+      </div>
+    </section>
+    <p>&copy; 2025 Sinca. Alle Rechte vorbehalten.</p>
+  </footer>
+</body>
+</html>
+
